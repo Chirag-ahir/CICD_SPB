@@ -15,7 +15,7 @@ public class CicdSpbApplication {
 	
 	@GetMapping
 	public String message(){
-		return "welcome to CICD Pipeline";
+		return "welcome to CICD Pipeline. This is my successfull project";
 	}
 
 }
