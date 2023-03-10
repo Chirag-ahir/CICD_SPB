@@ -13,8 +13,13 @@ public class CicdSpbApplication {
 		SpringApplication.run(CicdSpbApplication.class, args);
 	}
 	
-	@GetMapping
+	@GetMapping("/message")
 	public String message(){
+		return "welcome to CICD Pipeline. This is my successfull project";
+	}
+	
+	@GetMapping("/receive")
+	public String receive(){
 		return "welcome to CICD Pipeline. This is my successfull project";
 	}
 
