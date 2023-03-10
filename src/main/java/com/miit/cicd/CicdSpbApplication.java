@@ -18,7 +18,7 @@ public class CicdSpbApplication {
 		return "welcome to CICD Pipeline. This is my successfull project";
 	}
 	
-	@GetMapping("/receive")
+	@GetMapping("/receiver")
 	public String receive(){
 		return "welcome to CICD Pipeline. This is my successfull project";
 	}
